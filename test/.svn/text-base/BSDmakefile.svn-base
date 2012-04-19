@@ -1,9 +1,0 @@
-PROG=camradlang_test
-SRCS=camradlang_test.c
-
-CFLAGS+=-I../
-LDADD=../libcamradlang.a -lbsd
-
-NO_MAN=
-
-.include <bsd.prog.mk>
