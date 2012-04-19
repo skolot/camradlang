@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/coreteam/!svn/ver/9/libs/camradlang/test
+END
+BSDmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/coreteam/!svn/ver/6/libs/camradlang/test/BSDmakefile
+END
+camradlang_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/coreteam/!svn/ver/9/libs/camradlang/test/camradlang_test.c
+END

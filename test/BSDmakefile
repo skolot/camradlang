@@ -1,0 +1,16 @@
+PROG=camradlang_test
+SRCS=camradlang_test.c
+
+CFLAGS+=-I../
+
+OS!=uname
+.if ${OS} == Linux 
+LINUX_LIBS=-lbsd
+CFLAGS+=-D__linux
+.endif
+
+LDADD=../libcamradlang.a ${LINUX_LIBS}
+
+NO_MAN=
+
+.include <bsd.prog.mk>
